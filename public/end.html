@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/RT.css">
+        <title>Gave Over: Save Score</title>
+    </head>
+    <body>
+        <div class='container'>
+            <div id='end' class='flex-center flex-clumn'>
+                <h1 id='finalScore'>23</h1>
+                <form action='/scores' class='form-input'>
+                    <input
+                        type='text'
+                        name='username'
+                        id='username'
+                        placeholder="username" 
+                    />
+                    <button 
+                        type="submit" 
+                        class='btn' 
+                        id='saveScoreBtn'
+                        disabled
+                    >
+                        Save
+                    </button>
+                    <a class='btn' href='highscores.html'>View Top 5 Scores</a>
+                    <a class='btn' href='allHighScores.html'>View All Scores</a>
+                    <a class='btn' href='index.html'>Go Home</a>
+                </form>
+                <!--<div id='stroke-count'></div>
+                <div id='hole-number'></div>-->
+            </div>
+        </div>
+        
+        <script src="./end.js"></script>
+    </body>
+</html>
